@@ -5,7 +5,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js" dir="ltr" lang="it-IT"> <!--<![endif]-->
 <head>
 	
-    <title>Abus Slider</title>
+    <title>jQuery Sequency JS</title>
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
     <meta name="author" content="" >
     <meta name="description" content=""> 
@@ -24,18 +24,17 @@
 <script type="text/javascript" >
 
 var $jsonSource =  [
-		            {caption:"1", img:"img/1.png"},
-		            {caption:"12Design", img:"img/2.png"},
-		            {caption:"3Design", img:"img/3.png"},
-		            {caption:"Design", img:"img/4.png"}
+		            {caption:"Skeleton", img:"img/1.png"},
+		            {caption:"Projection", img:"img/2.png"},
+		            {caption:"Muscle groups", img:"img/3.png"},
+		            {caption:"Muscles", img:"img/4.png"}
 		           ];
 
 (function (){
 
 	$("#sequency-container").sequency({
-		stepSpeed: 2000,
+		stepSpeed: 3000,
 		barFullscreen: true,
-		container: ".seq-section",
 		jsonSource: $jsonSource
 	});
 
